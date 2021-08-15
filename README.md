@@ -3,7 +3,7 @@ video searching app using react and youtube api. In this You can search any vide
 
 ### [Live Site](https://video-searching-platform.vercel.app/)
 
-https://imagetourlconverter.com/files/BfR72F8D6S964692.png
+![React Videos Searching app](https://imagetourlconverter.com/files/BfR72F8D6S964692.png)
 
 Setup:- run ```npm i && npm start``` to start development server
 
