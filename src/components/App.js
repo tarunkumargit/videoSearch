@@ -8,7 +8,9 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount() {
-    this.onTermSubmit('National anthem of INDIA');
+    this.onTermSubmit(
+      ' Indian National Anthem playing at Neeraj Chopra’s Victory Ceremony at #Tokyo2020!'
+    );
   }
 
   onTermSubmit = async (term) => {
@@ -20,7 +22,7 @@ class App extends React.Component {
 
     this.setState({
       videos: response.data.items,
-      selectedVideo: response.data.items[1],
+      selectedVideo: response.data.items[0],
     });
   };
 
